@@ -8,9 +8,9 @@ var app = express();
 app.use(bp.json());
 var uid = 1;
 
-app.get('/', (req, res) => {
-    res.send('Welcome to the Express MongoDB App');
-});
+// app.get('/', (req, res) => {
+//     res.send('Welcome to the Express MongoDB App');
+// });
 
 app.post('/adduser', (req, res) => {
     const user = new empc({ ...req.body });
