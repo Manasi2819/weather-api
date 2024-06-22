@@ -1,0 +1,5 @@
+{
+    "secret": "your-secret-here",
+    "port": 3000,
+    "tokeLife": 900
+}
